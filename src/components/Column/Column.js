@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Column.scssx';
+import styles from './Column.scss';
 import PropTypes from 'prop-types';
 
 class Column extends React.Component {
