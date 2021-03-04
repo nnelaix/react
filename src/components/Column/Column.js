@@ -8,7 +8,7 @@ import Creator from '../Creator/Creator';
 
 class Column extends React.Component {
   state = { 
-    cards: this.props.card || [],
+    cards: this.props.cards || [],
   }
 
   static propTypes = {
