@@ -12,7 +12,7 @@ class List extends React.Component {
     columns: this.props.columns || [],
   }
 
-  static PropTypes = {
+  static propTypes = {
     title: PropTypes.node.isRequired,
     image: PropTypes.string.isRequired, // string - text 
     description: PropTypes.node,
@@ -32,9 +32,9 @@ class List extends React.Component {
             key: state.columns.length ? state.columns[state.columns.length-1].key+1 : 0,
             title,
             icon: 'list-alt',
-            cards: []
-          }
-        ]
+            cards: [],
+          },
+        ],
       }
     ));
   }
@@ -61,7 +61,7 @@ class List extends React.Component {
       
 
       </section>
-    )
+    );
   }
 }
 
