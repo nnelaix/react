@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Column.scss';
-// import Card from '../Card/Card';
+import Card from '../Card/Card';
 import Icon from '../Icon/Icon';
 import PropTypes from 'prop-types';
 import {settings} from '../../data/dataStore';
@@ -14,7 +14,7 @@ class Column extends React.Component {
   }
 
   render() {
-    const {title, icon} = this.props;
+    const {title, icon, cards} = this.props;
     return (
       <section className={styles.component}>
         <h3 className={styles.title}>
