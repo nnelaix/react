@@ -20,8 +20,8 @@ class Column extends React.Component {
         <h3 className={styles.title}>
           <span className={styles.icon}><Icon name={this.props.icon} /></span> {this.props.title} </h3> 
 
-        {this.state.cards.map(({key, ...cardsProps}) => (
-          <Card key={key} {...cardsProps} />
+        {cards.map(cardData => (
+          <Card key={cardData.id} {...cardData} />
         ))}
 
         {/* }
