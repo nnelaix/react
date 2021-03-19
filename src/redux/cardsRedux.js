@@ -5,6 +5,7 @@ export const getCardsForList = ({cards}, listId) => cards.filter(card => card.li
 
 export const getCardsForColumn = ({cards}, columnId) => cards.filter(card => card.columnId == columnId);
 
+
 // action name creator
 const reducerName = 'cards';
 const createActionName = name => `app/${reducerName}/${name}`;

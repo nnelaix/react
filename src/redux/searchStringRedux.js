@@ -1,6 +1,6 @@
 // selectors
 
-const getSearchString = state => state.searchString; //????
+export const getSearchString = state => state.searchString; 
 
 export const countAllCards = ({cards}) => cards.length;
 
