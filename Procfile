@@ -1,1 +1,1 @@
-web: browserSync;
+web: http-server dist;
