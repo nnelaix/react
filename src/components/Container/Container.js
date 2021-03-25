@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Container.scss';
-import PropTypes, { node } from 'prop-types';
+import PropTypes from 'prop-types';
 
-const Container = props => ({
+class Container extends React.Component {
+  static propTypes = {
   children: PropTypes.node,
-});
+}
 
 render() {
   const { children } = this.props;
@@ -13,5 +14,6 @@ render() {
     </div>
   );
   }
+}
 
 export default Container;
