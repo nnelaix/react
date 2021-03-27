@@ -72,6 +72,19 @@ export const listData = {
   ],
 };
 
+export const faqContent = {
+  title: 'FAQ',
+  image: 'https://image.freepik.com/free-vector/hand-drawn-spaceship-background_23-2147908136.jpg',
+  description: 'Lorem ipsum lorem. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+};
+
+export const infoContent = {
+  title: 'Info',
+  image: 'https://wallpaperaccess.com/full/175996.jpg',
+  description: 'Lorem ipsum lorem. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+
+};
+
 const lists = [
   {
     id: 'list-1',
