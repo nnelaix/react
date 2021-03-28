@@ -92,6 +92,17 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'More things to to!',
+    description: 'Get lost in space!',
+    image: 'https://i.pinimg.com/564x/29/55/e0/2955e0c3c3e0fd0b467806ebce4c06fe.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Become an astronaut',
+    image: 'https://image.freepik.com/free-vector/cute-cartoon-space-sticker-collection_52683-23462.jpg', 
+  },
 ];
 
 const columns = [
