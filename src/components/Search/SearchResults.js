@@ -10,9 +10,7 @@ class SearchResults extends React.Component {
     cards: PropTypes.array,
   }
 
-  static defaultProps = {
-    icon: settings.defaultColumnIcon,
-  }
+
   render() {
     const {cards} = this.props;
     return (
