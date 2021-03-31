@@ -10,7 +10,6 @@ import List from '../List/ListContainer';
 import SearchResults from '../Search/SearchContainer';
 
 
-
 const App = () => (
   <BrowserRouter>
   <MainLayout>
