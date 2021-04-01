@@ -1,8 +1,9 @@
 import {connect} from 'react-redux';
 import SearchResults from './SearchResults';
+import {searchResults} from './../../redux/cardsRedux';
 
 const mapStateToProps = (state, props) => ({
-  cards: SearchResults(state, props.match.params  )// ?*
+  cards: searchResults(state, props.match.params.id)
 });
 
 

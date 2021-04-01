@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Column.scss';
+import styles from './../Column/Column.scss';
 import Card from '../Card/Card';
 import PropTypes from 'prop-types';
 import Container from './../Container/Container';
